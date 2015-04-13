@@ -1,0 +1,18 @@
+{
+    "name": "jaredjennings-mac_plist_value",
+    "version": "0.3.0",
+    "author": "Jared Jennings",
+    "license": "Apache-2.0",
+    "summary": "Change values in property lists (plists) under Mac OS X",
+    "source": "https://github.com/jaredjennings/puppet-mac_plist_value",
+    "dependencies": [],
+    "project_page": "https://forge.puppetlabs.com/jaredjennings/mac_plist_value",
+    "issues_url": "https://github.com/jaredjennings/puppet-mac_plist_value/issues",
+    "tags": ["plist", "propertylist", "mcx"],
+    "operatingsystem_support": [
+	{
+	    "operatingsystem": "Darwin",
+	    "operatingsystemrelease": ["10.6", "10.9"]
+	}
+    ]
+}    
