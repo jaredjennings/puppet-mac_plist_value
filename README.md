@@ -1,8 +1,9 @@
 # Property lists in Mac OS X
 
-This is a Puppet module that manages property lists under Mac OS
-X. Some property lists are stored in files; some others are stored in
-the directory service. Both locations are supported.
+This is a Puppet module that provides resource types that manage
+property lists under Mac OS X. Some property lists are stored in
+files; some others are stored in the directory service. Both locations
+are supported.
 
 ## Setting values in property lists in files
 
