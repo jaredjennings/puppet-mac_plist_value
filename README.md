@@ -38,6 +38,9 @@ Examples:
     }
 ```
 
+If the property list file's name has a colon in it, you must use the
+syntax with the file parameter.
+
 ## Setting values in MCX property lists
 
 Examples:
@@ -59,6 +62,24 @@ Examples:
 	ensure => absent,
     }
 ```
+
+## Value types
+
+When setting property list values, the type of the value must be
+known. Unlike a few other modules on the Forge which support the
+alteration of property lists, this one is so bold as to try to infer
+the type of the value you have given. So values of `true` and `false`
+are taken to be booleans; values comprised entirely of digits will
+likely end up as integers.
+
+If you need a value in a property list to be an array with one item in
+it, you have to put an empty string after that item, like
+
+```
+    value => ['thing i wanted', '']
+```
+
+The empty string will be stripped off at the proper time.
 
 ## Mac OS X version compatibility
 
