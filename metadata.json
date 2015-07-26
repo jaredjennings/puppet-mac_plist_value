@@ -1,6 +1,6 @@
 {
     "name": "jaredjennings-mac_plist_value",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "author": "Jared Jennings",
     "license": "Apache-2.0",
     "summary": "Change values in property lists (plists) under Mac OS X",
